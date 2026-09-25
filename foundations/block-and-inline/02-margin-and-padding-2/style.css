@@ -3,10 +3,15 @@ body {
   font-family: sans-serif;
 }
 
+*{
+    font-size: 16px;
+}
+
 .card {
   width: 400px;
   background: white;
   margin: 16px auto;
+  border: 2px solid white;
 }
 
 .title,
@@ -15,6 +20,26 @@ body {
   background: dodgerblue;
 }
 
+.title{
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.content{
+  padding: 10px 5px;
+  margin: 10px auto;
+}
+
+.button-container{
+  margin: 5px auto 2px;
+  text-align-last: center;
+  align-content: center;
+}
+
 button {
+  display: block;
   background: white;
+  padding: 5px 20px;
+  margin: auto auto 5px auto;
+  border-color: solid black;
 }
